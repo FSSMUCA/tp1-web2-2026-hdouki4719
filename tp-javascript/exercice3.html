@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TP JavaScript</title>
+  </head>
+  <body>
+    <h1>Exercice 3</h1>
+    <!-- Votre contenu HTML ici -->
+
+    <script>
+       const TAUX_TVA=0.20;
+       const prixHT=160;
+       let prixTTC = prixHT + (TAUX_TVA * prixHT);
+       console.log(`"Prix HT :${prixHT} € | TVA (20%) : ${TAUX_TVA*prixHT} € | Prix TTC : ${prixTTC} € "`)
+       try{
+        TAUX_TVA=0.25;
+       } catch (error){
+        console.error("Erreur : impossible de modifier une constante !", error);
+      }
+       </script>
+       </body>
+</html>
