@@ -253,3 +253,4 @@ Créez `exercice7.html`. Vous allez créer un mini-calculateur de propriétés d
 - [MDN — Types de données](https://developer.mozilla.org/fr/docs/Web/JavaScript/Data_structures)
 - [MDN — document.getElementById](https://developer.mozilla.org/fr/docs/Web/API/Document/getElementById)
 - [MDN — Template literals](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Template_literals)
+ 
